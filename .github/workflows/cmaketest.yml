@@ -1,7 +1,7 @@
 # to build on mac you should have added a path to your qt directory in CMAKE_PREFIX_PATH environment variable
 # for ex.: export CMAKE_PREFIX_PATH="$CMAKE_PREFIX_PATH:/Users/testnet/Qt/5.9.2/clang_64/lib/cmake"
 
-cmake_minimum_required(VERSION 3.0.2)
+cmake
 project(armor-gui)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
 
